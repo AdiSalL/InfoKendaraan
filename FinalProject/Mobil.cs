@@ -12,7 +12,7 @@ namespace FinalProject
         {
         }
 
-        public override void Akselerasi(int waktu)
+        public override void Akselerasi(int waktu) // polymorphism
         {
             if (Hidup)
             {
@@ -21,7 +21,7 @@ namespace FinalProject
                     Kecepatan += 20; // Mobil biasanya lebih cepat dalam akselerasi
                     Console.WriteLine($"Kecepatan mobil {Nama} sekarang adalah {Kecepatan} km/jam.");
                 }
-                Console.WriteLine($"Mobil {Nama} telah berakselerasi selama {waktu} detik.");
+                Console.WriteLine($"Mobil {Nama} telah berakselerasi selama {waktu} menit.");
             }
             else
             {
@@ -39,7 +39,7 @@ namespace FinalProject
                     if (Kecepatan < 0) Kecepatan = 0; // Pastikan kecepatan tidak negatif
                     Console.WriteLine($"Kecepatan mobil {Nama} sekarang adalah {Kecepatan} km/jam.");
                 }
-                Console.WriteLine($"Mobil {Nama} telah direm selama {waktu} detik.");
+                Console.WriteLine($"Mobil {Nama} telah direm selama {waktu} menit.");
             }
             else
             {

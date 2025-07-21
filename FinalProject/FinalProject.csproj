@@ -43,8 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Bemo.cs" />
     <Compile Include="IKendaraan.cs" />
     <Compile Include="Kendaraan.cs" />
+    <Compile Include="Mobil.cs" />
+    <Compile Include="Motor.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

@@ -21,7 +21,7 @@ namespace FinalProject
                     Kecepatan += 15; // Motor biasanya lebih cepat dalam akselerasi
                     Console.WriteLine($"Kecepatan motor {Nama} sekarang adalah {Kecepatan} km/jam.");
                 }
-                Console.WriteLine($"Motor {Nama} telah berakselerasi selama {waktu} detik.");
+                Console.WriteLine($"Motor {Nama} telah berakselerasi selama {waktu} menit.");
             }
             else
             {
@@ -39,7 +39,7 @@ namespace FinalProject
                     if (Kecepatan < 0) Kecepatan = 0; // Pastikan kecepatan tidak negatif
                     Console.WriteLine($"Kecepatan motor {Nama} sekarang adalah {Kecepatan} km/jam.");
                 }
-                Console.WriteLine($"Motor {Nama} telah direm selama {waktu} detik.");
+                Console.WriteLine($"Motor {Nama} telah direm selama {waktu} menit.");
             }
             else
             {

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace FinalProject
 {
-    public abstract class Kendaraan : IKendaraan
+    public abstract class Kendaraan : IKendaraan 
     {
        public string Nama { get; set; }
         public  bool Hidup { get; set; }
@@ -30,7 +30,7 @@ namespace FinalProject
                     Kecepatan += 10;
                     Console.WriteLine($"Kecepatan kendaraan {Nama} sekarang adalah {Kecepatan} km/jam.");
                 }
-                Console.WriteLine($"Kendaraan {Nama} telah berakselerasi selama {waktu} detik.");
+                Console.WriteLine($"Kendaraan {Nama} telah berakselerasi selama {waktu} menit.");
             }else {
                 Console.WriteLine($"Kendaraan {Nama} tidak dapat berakselerasi karena dalam kondisi mati."); 
             }
@@ -47,7 +47,7 @@ namespace FinalProject
                     if (Kecepatan < 0) Kecepatan = 0;
                     Console.WriteLine($"Kecepatan kendaraan {Nama} sekarang adalah {Kecepatan} km/jam.");
                 }
-                Console.WriteLine($"Kendaraan {Nama} telah berakselerasi selama {waktu} detik.");
+                Console.WriteLine($"Kendaraan {Nama} telah berakselerasi selama {waktu} menit.");
             }
             else
             {

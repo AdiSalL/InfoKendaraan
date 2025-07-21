@@ -21,7 +21,7 @@ namespace FinalProject
                     Kecepatan += 12;
                     Console.WriteLine($"Kecepatan bemo {Nama} sekarang adalah {Kecepatan} km/jam.");
                 }
-                Console.WriteLine($"Bemo {Nama} telah berakselerasi selama {waktu} detik.");
+                Console.WriteLine($"Bemo {Nama} telah berakselerasi selama {waktu} menit.");
             }
             else
             {
@@ -39,7 +39,7 @@ namespace FinalProject
                     if (Kecepatan < 0) Kecepatan = 0; // Pastikan kecepatan tidak negatif
                     Console.WriteLine($"Kecepatan bemo {Nama} sekarang adalah {Kecepatan} km/jam.");
                 }
-                Console.WriteLine($"Bemo {Nama} telah direm selama {waktu} detik.");
+                Console.WriteLine($"Bemo {Nama} telah direm selama {waktu} menit.");
             }
             else
             {
