@@ -1,1 +1,1 @@
-jalankan dotnet build terlebih dahulu di terminal sebelum menjalankan project
+jalankan <code>dotnet build</code> terlebih dahulu di terminal sebelum menjalankan project
